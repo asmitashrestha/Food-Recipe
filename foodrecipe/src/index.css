@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.inp{
+  box-shadow: 3px 4px rgb(230, 150, 150);
+}
+.recipe-container{
+  background-color: rgb(188, 191, 194);
+  border-radius: 16px;
+  margin-bottom: 50px;
+  width: 360px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.recipe-img img{
+  height: 200px;
+  width: 330px;
+}
+
+.fav-btn{
+  background-color: rgb(5, 5, 5);
+  padding: 13px 17px;
+  border-radius: 10px;
+  color: white;
+}
